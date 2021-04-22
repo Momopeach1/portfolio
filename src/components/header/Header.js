@@ -13,11 +13,18 @@ import {
 } from "react-pro-sidebar";
 
 //import icons from react icons
-import { FaList, FaRegHeart } from "react-icons/fa";
-import { FiHome, FiLogOut, FiArrowLeftCircle, FiArrowRightCircle } from "react-icons/fi";
-import { RiPencilLine } from "react-icons/ri";
-import { BiCog } from "react-icons/bi";
+import { FaRegHeart } from "react-icons/fa";
+import { 
+  FiCode, 
+  FiGithub, 
+  FiArrowLeftCircle, 
+  FiArrowRightCircle, 
+  FiLinkedin, 
+  FiHome,
+  FiKey 
+} from "react-icons/fi";
 
+import { RiPencilLine } from "react-icons/ri";
 
 //import sidebar css from react-pro-sidebar module and our custom css 
 import "react-pro-sidebar/dist/css/styles.css";
@@ -27,7 +34,8 @@ import "./Header.css";
 const Header = () => {
   
     //create initial menuCollapse state using useState hook
-    const [menuCollapse, setMenuCollapse] = useState(false)
+    const [menuCollapse, setMenuCollapse] = useState(false);
+    const [activeMenu, setActiveMenu] = useState('home');
 
     //create a custom function that will change menucollapse state from false to true and true to false
   const menuIconClick = () => {
@@ -35,8 +43,8 @@ const Header = () => {
     menuCollapse ? setMenuCollapse(false) : setMenuCollapse(true);
   };
 
-  const menuItemClick = () => {
-    
+  const menuItemClick = (data) => {
+    if(data !== activeMenu) setActiveMenu(data);
   }
 
   return (
@@ -60,22 +68,34 @@ const Header = () => {
           </SidebarHeader>
           <SidebarContent>
             <Menu iconShape="square">
-              <MenuItem active={true} icon={<FiHome />}>
+              <MenuItem active={activeMenu === 'home' ? true : false} icon={<FiHome />} onClick={() => menuItemClick('home')}>
                 Home
                 <Link to='/' />
               </MenuItem>
-              <MenuItem icon={<FaList />}>
-                Category
+              <MenuItem active={activeMenu === 'about' ? true : false} icon={<FiKey />} onClick={() => menuItemClick('about')}>
+                About Me
                 <Link to='/about' />
               </MenuItem>
-              <MenuItem icon={<FaRegHeart />}>Favourite</MenuItem>
-              <MenuItem icon={<RiPencilLine />}>Author</MenuItem>
-              <MenuItem icon={<BiCog />}>Settings</MenuItem>
+              <MenuItem active={activeMenu === 'projects' ? true : false} icon={<FiCode />} onClick={() => menuItemClick('projects')}>
+                Projects
+                <Link to='/projects' />
+              </MenuItem>
+              <MenuItem active={activeMenu === 'hobby' ? true : false} icon={<FaRegHeart />} onClick={() => menuItemClick('hobby')}>
+                Hobbies
+                <Link to='/hobbies' />
+              </MenuItem>
             </Menu>
           </SidebarContent>
           <SidebarFooter>
             <Menu iconShape="square">
-              <MenuItem icon={<FiLogOut />}>Logout</MenuItem>
+              <MenuItem icon={<FiGithub />}>
+                GitHub
+                <a href='https://github.com/Momopeach1' />
+              </MenuItem>
+              <MenuItem icon={<FiLinkedin />}>
+                LinkedIn
+                <a href='https://www.linkedin.com/in/mohammed-elsayed-26a5aa182/' />
+              </MenuItem>
             </Menu>
           </SidebarFooter>
         </ProSidebar>

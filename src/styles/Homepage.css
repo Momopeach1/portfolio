@@ -1,0 +1,28 @@
+.top-img {
+    border-radius: 8px;
+    width: 450px;
+}
+.main-content {
+    padding-left: 240px;
+    background-color: #50455a;
+    height: 100vh;
+}
+.img-container {
+    padding-top: 100px;
+}
+
+h1 {
+    font-family: 'whitney-medium';
+    color: #bc9fa4;
+}
+
+.flare-text {
+    font-family: 'whitney-medium';
+    color: #63fed9;
+
+}
+
+p {
+    font-family: 'whitney-medium';
+    color: #ae8da3
+}
