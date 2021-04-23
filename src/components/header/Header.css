@@ -16,7 +16,7 @@
     font-size: 22px;
     top: 55px;
     cursor: pointer;
-    background-color: #EB9486;
+    background-color: #c5efb4;
   }
   #header .pro-sidebar {
     width: 100%;
@@ -41,9 +41,7 @@
     
     
   }
-  /* #header .pro-sidebar-inner .pro-sidebar-layout ul {
-    padding: 0 5px;
-  } */
+
   #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item {
     color: #000;
     margin: 10px 0px;
@@ -66,15 +64,15 @@
     
   }
   #header .pro-sidebar-content {
-    background-color: #EB9486;
+    background-color: #c5efb4;
     
   }
   #header .pro-sidebar-header {
-    background-color: #EB9486;
+    background-color: #c5efb4;
     border-bottom-color: #F3DE8A;
   }
   #header .pro-sidebar-footer {
-    background-color: #EB9486;
+    background-color: #c5efb4;
     border-top-color: #F3DE8A;
   }
   

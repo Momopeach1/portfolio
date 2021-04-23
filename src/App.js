@@ -1,4 +1,3 @@
-// import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Header from'./components/header/Header';
@@ -11,13 +10,13 @@ import history from './utilities/history';
 
 function App() {
   return (
-      <Router history={history}>
+      <Router history={history} >
         <Header />
         <Switch>
           <Route path='/' exact component={Homepage}/>
-          <Route path='/about' exact component={About}/>
-          <Route path='/projects' exact component={Projects}/>
-          <Route path='/hobbies' exact component={Hobbies}/>
+          <Route path='/about' component={About}/>
+          <Route path='/projects' component={Projects}/>
+          <Route path='/hobbies' component={Hobbies}/>
         </Switch>
       </Router>
   );
