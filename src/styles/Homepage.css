@@ -4,7 +4,7 @@
 }
 .main-content {
     padding-left: 240px;
-    background-color: #50455a;
+    background-color: #7E7F9A;
     height: 100vh;
 }
 .img-container {
@@ -13,16 +13,17 @@
 
 h1 {
     font-family: 'whitney-medium';
-    color: #bc9fa4;
+    color: #F3DE8A;
+    margin-top: 0px;
 }
 
 .flare-text {
     font-family: 'whitney-medium';
-    color: #63fed9;
+    color: #EB9486;
 
 }
 
 p {
     font-family: 'whitney-medium';
-    color: #ae8da3
+    color: #CAE7B9
 }

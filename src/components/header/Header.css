@@ -16,7 +16,7 @@
     font-size: 22px;
     top: 55px;
     cursor: pointer;
-    background-color: #ae8da3;
+    background-color: #EB9486;
   }
   #header .pro-sidebar {
     width: 100%;
@@ -58,7 +58,7 @@
     color: #000;
   }
   #header .pro-sidebar-inner .pro-sidebar-layout .active {
-    background-color: #50455a;
+    background-color: #7E7F9A;
 
   }
   #header .logo {
@@ -66,16 +66,16 @@
     
   }
   #header .pro-sidebar-content {
-    background-color: #ae8da3;
+    background-color: #EB9486;
     
   }
   #header .pro-sidebar-header {
-    background-color: #ae8da3;
-    border-bottom-color: #a24d7a ;
+    background-color: #EB9486;
+    border-bottom-color: #F3DE8A;
   }
   #header .pro-sidebar-footer {
-    background-color: #ae8da3;
-    border-top-color: #a24d7a ;
+    background-color: #EB9486;
+    border-top-color: #F3DE8A;
   }
   
   @media only screen and (max-width: 720px) {
