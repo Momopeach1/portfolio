@@ -26,13 +26,13 @@ import {
 
 //import sidebar css from react-pro-sidebar module and our custom css 
 import "react-pro-sidebar/dist/css/styles.css";
-import "./Header.css";
+import "../styles/Header.css";
 
 
 const Header = () => {
   
     //create initial menuCollapse state using useState hook
-    const [menuCollapse, setMenuCollapse] = useState(false);
+    const [menuCollapse, setMenuCollapse] = useState(true);
     const [activeMenu, setActiveMenu] = useState('home');
 
     //create a custom function that will change menucollapse state from false to true and true to false
@@ -97,6 +97,10 @@ const Header = () => {
             </Menu>
           </SidebarFooter>
         </ProSidebar>
+      </div>
+      <div className='email-wrapper'>
+        <a className='email-link' href='mailto:elsayedmohammed8120@gmail.com'>elsayedmohammed8120@gmail.com</a>
+        <div className='line'></div>
       </div>
     </>
   );

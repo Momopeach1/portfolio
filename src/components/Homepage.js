@@ -1,7 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
+import pdf from '../assets/files/resume.pdf';
+
+
 
 import '../styles/Homepage.css';
 
@@ -52,13 +54,14 @@ const Homepage = () => {
                     Athens, Greece and Bronx, New York.
                 </p>
                 <Button
-                    component={Link} to={'/#'}
+                    href={pdf} target="_blank"
                     classes={{
                         root: classes.root,
                         label: classes.label,
                     }}
                     >
-                    Resume</Button>
+                    Resume
+                    </Button>
             </div> 
         </div>
     )
