@@ -1,0 +1,66 @@
+.h1-about {
+    font-size: 32px;
+}
+.h1-about-flare {
+    font-size: 32px;
+    color: #c5efb4;
+    margin-right: 10px;
+    font-family: 'whitney-book';
+}
+
+.text-heading {
+    margin-top: 100px;
+    margin-left: 50px;
+    display: flex;
+    height: fit-content;
+}
+
+.vline {
+    content: "";
+    width: 300px;
+    height: 1px;
+    margin: auto;
+    margin-left: 20px;
+    background-color: #c5efb4;
+}
+
+.skill-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(140px, 200px));
+    padding: 0px;
+    margin: 20px 0px 0px;
+    overflow: hidden;
+    list-style: none;
+    color: #c5efb4;
+}
+.skill-list li {
+    font-family: 'whitney-book';
+    font-size: 16px;
+    margin-left: 50px;
+    line-height: 1.9rem;
+}
+
+.skill-list li::before {
+    content: "▹";
+    color: #64ffda ;
+    margin-right: 10px;
+
+}
+
+.p-about {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.img-about {
+    height: 400px;
+    width: 400px;
+    border-radius: 4px;
+    margin: 165px 0 0 20px;
+}
+
+.img-container-about {
+    width: fit-content;
+    height: fit-content;
+}
+

@@ -61,7 +61,7 @@ const Homepage = () => {
                     }}
                     >
                     Resume
-                    </Button>
+                </Button>
             </div> 
         </div>
     )
