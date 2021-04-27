@@ -2,9 +2,11 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <h1>
-            Prooooooooooojects...
-        </h1>
+        <div className='main-content'>
+            <h1>
+                Some Things I've Built
+            </h1>
+        </div>
     )
 }
 

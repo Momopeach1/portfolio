@@ -15,6 +15,10 @@
     height: fit-content;
 }
 
+.text-container-about {
+    margin-left: 100px;
+}
+
 .vline {
     content: "";
     width: 300px;
@@ -42,7 +46,7 @@
 
 .skill-list li::before {
     content: "▹";
-    color: #64ffda ;
+    color: #ffe57b ;
     margin-right: 10px;
 
 }
@@ -56,11 +60,51 @@
     height: 400px;
     width: 400px;
     border-radius: 4px;
-    margin: 165px 0 0 20px;
 }
 
-.img-container-about {
-    width: fit-content;
-    height: fit-content;
+.img-about:hover {
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    transition: .25s -webkit-filter ease-in;
 }
+.img-container-about {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    margin: 165px 0 0 20px;
+}
+.img-container-about a {
+    position: absolute;
+    right: 115px;
+    top: 70px;
+    display: none;
+}
+
+.img-container-about:hover a {
+    display: block;
+}
+
+.add-icn-about {
+    display:inline-block;
+    border:1px solid #CCC;
+    background:rgb(71, 63, 63);
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    vertical-align: middle;
+    width: fit-content;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+#insta {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            /* Also define standard property for compatibility */
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    font-size: 100px; /* change this to change the size*/
+    margin: auto;
+    
+}
+
 

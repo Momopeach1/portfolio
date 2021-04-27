@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { FiInstagram } from "react-icons/fi";
 import '../styles/About.css';
 
 const About = () => {
@@ -21,13 +21,13 @@ const About = () => {
                     making different websites look goofy. This taught me a lot about HTML and CSS!               
                 </p>
                 <p className='p-about'>
-                    Fastforward to the present day, I'm now building instead of playing around in inspect element.
+                    Fast-forward to the present day, I'm now building instead of playing around in inspect element.
                     I've created web applications mainly centered on communication and being able to connect with others.
                     I'm working at <a className='nav-link' href ='https://arcathens.org/'> ARCAthens</a>, a non-profit
                     influenced by my same goal, connecting people.
                 </p>
                 <p className='p-about'>
-                    Here are some technologies loved working with recently:
+                    Here are some technologies I loved working with recently:
                 </p>
                 <ul className='skill-list'>
                     <li>MongoDB</li>
@@ -42,8 +42,12 @@ const About = () => {
                 </ul>
             </div>
             <div className='img-container-about'>
-                <a href='https://www.instagram.com/peachysqueak/'>
-                    <img alt='date-kcorndog' className='img-about' src='/IMG_6699.jpg' />
+                <img alt='date-kcorndog' class='blur' className='img-about' src='/IMG_6699.jpg' />
+                <a href='https://www.instagram.com/peachysqueak/' target='_blank'>
+                    <div className='add-icn-about'>
+                        <i id='insta' class="fab fa-instagram fa-5x" aria-hidden="true"></i>
+                        <p>@peachysqueak</p>
+                    </div>
                 </a>
             </div>
         </div>
