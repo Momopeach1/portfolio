@@ -1,0 +1,14 @@
+.text-container-project {
+    display: flex;
+}
+
+.text-heading-project {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    height: fit-content;
+}
+.project-img {
+    width: 579px;
+    height: 330px;
+}
