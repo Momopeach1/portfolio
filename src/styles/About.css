@@ -15,10 +15,6 @@
     height: fit-content;
 }
 
-.text-container-about {
-    margin-left: 100px;
-}
-
 .vline {
     content: "";
     width: 300px;
