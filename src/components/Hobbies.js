@@ -1,10 +1,14 @@
 import React from 'react';
 
+import '../styles/Hobbies.css';
+
 const Hobbies = () => {
     return (
-        <h1>
-            HOOOOOOOOOOOOOOOOOOOOOOOBIES...
-        </h1>
+        <div className='main-content-hobbies'>
+            <h1>
+                Hobbies
+            </h1>
+        </div>
     )
 }
 

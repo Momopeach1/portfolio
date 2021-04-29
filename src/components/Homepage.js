@@ -46,7 +46,7 @@ const Homepage = () => {
                 <h3>I create websites.</h3>
                 <p>
                     I am a New York based software engineer 
-                    that specializes in building and desgining 
+                    that specializes in building and designing 
                     websites and web applications. Currently, I manage
                     a WordPress created web page for 
                     <a className='nav-link' href ='https://arcathens.org/'> ARCAthens</a>, 

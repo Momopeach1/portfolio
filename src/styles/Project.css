@@ -5,6 +5,7 @@
     height: 100vh;
     overflow-y: scroll;
     display: block;
+    overflow: hidden;
 }
 
 .text-container-project {
@@ -22,11 +23,20 @@
     border-radius: 3px;
 }
 
+.project-img-left {
+    right: 80px;
+    width: 500px;
+    height: 300px;
+    border-radius: 3px;
+    position: relative;
+}
+
 .project-main-container {
     margin-top: 50px;
 }
 
 .project-card  {
+    margin-top: 50px;
     display: flex;
 }
 
@@ -44,6 +54,11 @@
     width: fit-content;
     text-align: right;
 }
+.project-card-text-container-left {
+    position: relative;
+    width: fit-content;
+    text-align: left;
+}
 
 .project-card-desc {
     text-align: right;
@@ -55,6 +70,19 @@
     padding: 25px;
     border-radius: 4px;
 }
+
+.project-card-desc-left {
+    text-align: left;
+    background-color: #112240;
+    color: #d8f4cd;
+    font-size: 18px;
+    box-shadow: 0 10px 30px -15px #020c1bb3;
+    z-index: 2;
+    padding: 25px;
+    border-radius: 4px;
+    position: relative;
+}
+
 
 .project-tech-list {
     justify-content: flex-end;
@@ -76,5 +104,54 @@
     margin: 0px 0px 5px 20px;
 }
 
+.project-tech-list-left {
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+    margin: 25px 0px 10px;
+    padding: 0px;
+    list-style: none;
+}
+
+.project-tech-list-left li {
+    text-align: left;
+    color: #d8f4cd;
+    font-family: 'whitney-book';
+    font-size: 16px;
+    white-space: nowrap;
+    margin: 0px 20px 5px 0px;
+}
+
+.project-links {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    margin-left: 0px;
+    margin-right: -10px;
+}
+
+.project-links-left {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    -webkit-box-pack: end;
+    justify-content: flex-start;
+    margin-left: 0px;
+    margin-right: -10px;
+}
+
+.project-icn {
+    color: white;
+    font-size: 2.2em;
+    padding: 10px;
+}
 
 
