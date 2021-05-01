@@ -16,7 +16,7 @@ function App() {
           <Route path='/' exact component={Homepage}/>
           <Route path='/about' component={About}/>
           <Route path='/projects' component={Projects}/>
-          <Route path='/hobbies' component={Hobbies}/>
+          {/* <Route path='/hobbies' component={Hobbies}/> */}
         </Switch>
       </Router>
   );

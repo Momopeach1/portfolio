@@ -78,10 +78,10 @@ const Header = () => {
                 Projects
                 <Link to='/projects' />
               </MenuItem>
-              <MenuItem active={activeMenu === 'hobby' ? true : false} icon={<FaRegHeart />} onClick={() => menuItemClick('hobby')}>
+              {/* <MenuItem active={activeMenu === 'hobby' ? true : false} icon={<FaRegHeart />} onClick={() => menuItemClick('hobby')}>
                 Hobbies
                 <Link to='/hobbies' />
-              </MenuItem>
+              </MenuItem> */}
             </Menu>
           </SidebarContent>
           <SidebarFooter>
