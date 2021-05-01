@@ -49,7 +49,7 @@ const Homepage = () => {
                     that specializes in building and designing 
                     websites and web applications. Currently, I manage
                     a WordPress created web page for 
-                    <a className='nav-link' href ='https://arcathens.org/'> ARCAthens</a>, 
+                    <a className='nav-link' target="_blank" href ='https://arcathens.org/'> ARCAthens</a>, 
                     a website dedicated to sharing art between 
                     Athens, Greece and Bronx, New York.
                 </p>

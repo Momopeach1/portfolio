@@ -23,7 +23,7 @@ const About = () => {
                 <p className='p-about'>
                     Fast-forward to the present day, I'm now building instead of playing around in inspect element.
                     I've created web applications mainly centered on communication and being able to connect with others.
-                    I'm working at <a className='nav-link' href ='https://arcathens.org/'> ARCAthens</a>, a non-profit
+                    I'm working at <a className='nav-link' target="_blank" href ='https://arcathens.org/'> ARCAthens</a>, a non-profit
                     influenced by my same goal, connecting people.
                 </p>
                 <p className='p-about'>

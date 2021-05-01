@@ -88,18 +88,18 @@ const Header = () => {
             <Menu iconShape="square">
               <MenuItem icon={<FiGithub />}>
                 GitHub
-                <a href='https://github.com/Momopeach1' />
+                <a href='https://github.com/Momopeach1' target="_blank" />
               </MenuItem>
               <MenuItem icon={<FiLinkedin />}>
                 LinkedIn
-                <a href='https://www.linkedin.com/in/mohammed-elsayed-26a5aa182/' />
+                <a href='https://www.linkedin.com/in/mohammed-elsayed-26a5aa182/' target="_blank" />
               </MenuItem>
             </Menu>
           </SidebarFooter>
         </ProSidebar>
       </div>
       <div className='email-wrapper'>
-        <a className='email-link' href='mailto:elsayedmohammed8120@gmail.com'>elsayedmohammed8120@gmail.com</a>
+        <a target="_blank" className='email-link' href='mailto:elsayedmohammed8120@gmail.com'>elsayedmohammed8120@gmail.com</a>
         <div className='line'></div>
       </div>
     </>
